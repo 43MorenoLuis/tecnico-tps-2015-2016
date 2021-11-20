@@ -1,0 +1,6 @@
+Proceso sin_titulo
+	Escribir "INGRESE EL CAPITAL INVERTIDO: " ;
+	Leer CAP_INV;
+	GAN<-CAP_INV*0.02
+	Mostrar "LA GANANBCIA OBTENIDA DURANTE UN MES ES: " ,GAN;
+FinProceso

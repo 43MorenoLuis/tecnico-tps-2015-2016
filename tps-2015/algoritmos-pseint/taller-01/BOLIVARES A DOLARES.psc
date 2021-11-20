@@ -1,0 +1,7 @@
+Proceso sin_titulo
+	Escribir "INGRESE PRIMER NUMERO DE BOLIVARES: " ;
+	Leer BS;
+	US<-(BS * 015873)
+	MOSTRAR "EL RESULTADO DE LA CONVERSION ES: ",US;
+	
+FinProceso

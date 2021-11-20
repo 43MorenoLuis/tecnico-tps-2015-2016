@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	text-align:center;
+}
+body{
+	background: url(../imagenes/images-53.jpeg) no-repeat fixed center;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	-moz-background-size: cover;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+#h{
+	font-family:helvetica;
+	text-align:center;
+	font-size:60px;
+	color:rgb(20,20,100);
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9,0 3px 0 #bbb,0 4px 0 #b9b9b9,0 5px 0 #aaa,
+0 6px 1px rgba(0,0,0,.1),0 0 5px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.3),0 3px 5px rgba(0,0,0,.2),
+0 5px 10px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.2),0 20px 20px rgba(0,0,0,.15);
+}
+#p{
+	text-align:center;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:24px;
+	text-align:center;
+    text-shadow: 0 0 5px  #0066FF, 0 0 8px #9F0;
+}
+aside{
+	background:#FC0;
+	width:100%;
+	height:50%;
+   font-size:24px;
+  font-family:"Arial Black", Gadget, sans-serif;
+   border:3px solid brown;
+   border-radius:22px;
+  box-shadow: 6px 20px 10px black;	
+}

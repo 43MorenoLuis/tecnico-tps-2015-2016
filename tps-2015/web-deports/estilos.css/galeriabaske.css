@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	margin:0%;
+	padding:0%;
+}
+body{
+	background:url(../imagenes/images.png) no-repeat fixed center; 
+	 -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.galeria1{
+	text-align:center;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:36px;
+	color: green;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.img{
+	-webkit-transform:scale(0.6);
+	-moz-transform:scale(0.6);
+	-o-transform:scale(0.6);
+	float:left;
+	margin-left:-50px;
+	margin-right:-50px;
+	margin-top:-10px;
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+	}
+.img img{
+		padding:20px;
+		border:6px solid #CF0;
+}
+.img:hover{
+	-webkit-transform:scale(0.8);
+	-webkit-box-shadow:0px 0px 30px #ccc;
+	-moz-transform:scale(0.8);
+	-moz-box-shadow:0px 0px 30px #ccc;	
+	-o-transform:scale(0.8);
+	-o-box-shadow:0px 0px 30px #ccc;	
+}	 
+.img .mask{
+	width: 100%;
+	background-color: rgb(0, 0, 0);
+	position: absolute;
+	height: 100%; 
+	opacity:0.6;
+	cursor:pointer;
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-o-transition-duration:0.5s;
+}
+#img-1:hover .mask{
+	height:0%;	
+}
+#img-2:hover .mask{
+	height:0%;	
+	margin-top:130px;
+}
+
+#img-3 #mask-1 {
+	width:50%;
+}
+#img-3 #mask-2{
+	width:50%;
+	margin-left:163px;
+}
+#img-3:hover #mask-1{
+	width:0%;
+}
+#img-3:hover #mask-2{
+	margin-left:329px;
+	width:0%;
+}
+#img-4:hover .mask{
+	margin-left:219px;
+	margin-top:135px;
+	height:0%;
+	width:0%;
+	
+}
+#img-5:hover .mask{
+	margin-left:219px;
+	margin-top:135px;
+	height:0%;
+	width:0%;
+	-webkit-transform: rotateX(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(-360deg);
+}
+#img-6:hover .mask{
+	margin-left:219px;
+	margin-top:135px;
+	height:0%;
+	width:0%;
+	-webkit-transform: rotateZ(750deg);
+	-moz-transform: rotateZ(750deg);
+	-o-transform: rotat(750deg);
+}
+#img-7:hover .mask{
+	margin-left:219px;
+	margin-top:135px;
+	height:0%;
+	width:0%;
+	-webkit-transform: rotateZ(750deg);
+	-moz-transform: rotateZ(750deg);
+	-o-transform: rotat(750deg);
+}
+#img-8:hover .mask{
+	margin-left:219px;
+	margin-top:135px;
+	height:0%;
+	width:0%;
+}
+#img-9:hover .mask{
+	margin-left:219px;
+	margin-top:135px;
+	height:0%;
+	width:0%;
+	
+}#img-10:hover .mask{
+	margin-left:219px;
+	margin-top:135px;
+	height:0%;
+	width:0%;
+	
+}
+#img-11:hover .mask{
+	margin-left:219px;
+	margin-top:135px;
+	height:0%;
+	width:0%;
+	-webkit-transform: rotateX(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(-360deg);
+}
+#img-12:hover .mask{
+	margin-left:219px;
+	margin-top:135px;
+	height:0%;
+	width:0%;
+	-webkit-transform: rotateX(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(-360deg);
+}
+#esq{
+	font-family:helvetica;
+	text-align:center;
+	font-size:16px;
+	color:rgb(20,20,100);
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9,0 3px 0 #bbb,0 4px 0 #b9b9b9,0 5px 0 #aaa,
+0 6px 1px rgba(0,0,0,.1),0 0 5px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.3),0 3px 5px rgba(0,0,0,.2),
+0 5px 10px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.2),0 20px 20px rgba(0,0,0,.15);
+}
+
+
+

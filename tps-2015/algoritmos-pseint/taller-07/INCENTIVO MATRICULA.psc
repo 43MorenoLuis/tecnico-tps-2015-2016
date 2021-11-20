@@ -1,0 +1,13 @@
+Proceso sin_titulo
+	Escribir " DIGITE EL PROMEDIO: " ;
+	Leer PRO;
+	Escribir " DIGITE EL VALOR DE LA MATRICULA: " ;
+	Leer VM;
+	Si PRO=4 Entonces
+		DES=(VM*0.35)+VM
+		MOSTRAR "EL VALOR DE LA MATRICULA CON 35% ES: ",DES;
+	Sino
+		MC=(VM*0.10)+VM
+		MOSTRAR "EL VALOR DE LA MATRICULA COMPLETA ES: ",MC;
+	FinSi
+FinProceso

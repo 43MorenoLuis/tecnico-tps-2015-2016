@@ -1,0 +1,16 @@
+Proceso sin_titulo
+	//ALGORITMO PARA CALCULAR EL PROMEDIO
+	// DE 5 NOTAS DE UN APRENDIZ
+	Escribir "INGRESE EL PRIMER NUMERO: " ;
+	Leer N1;
+	Escribir "INGRESE EL SEGUNDO NUMERO: " ;
+	Leer N2;
+	Escribir "INGRESE EL TERCER NUMERO: " ;
+	Leer N3;
+	Escribir "INGRESE EL CUARTO NUMERO: " ;
+	Leer N4;
+	Escribir "INGRESE EL QUINTO NUMERO: " ;
+	Leer N5;
+	PRO<-(N1+N2+N3+N4+N5)/5
+	Mostrar "EL PROMEDIO DE LAS NOTAS ES: ",PRO;
+FinProceso

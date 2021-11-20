@@ -1,0 +1,9 @@
+Proceso sin_titulo
+	//ESTE ALGORITMO PERMITE SUMAR DOS NUMEROS
+	Escribir "INGRESE PRIMER NUMERO: ";
+	Leer N1;
+	Escribir "INGRESE SEGUNDO NUMERO: ";
+	Leer N2;
+	RES<-N1+N2;
+	Mostrar "LA SUMA DE LOS NUMEROS ES: ", RES;
+FinProceso

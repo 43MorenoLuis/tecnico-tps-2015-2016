@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	background:url(../imagenes/favicon%202.jpg)no-repeat fixed center; 
+	 -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	 
+}
+
+section{
+	margin-top:10px;
+	width:100%;
+	height:200%;
+	background:hsla(240, 100%, 50%, 0.1) ;
+	float:left;
+}
+aside{
+	text-align:center;
+	margin-top:80%;
+	background:#FC0;
+	width:100%;
+	height:70px;
+   font-size:24px;
+  font-family:"Arial Black", Gadget, sans-serif;
+   border:3px solid brown;
+   border-radius:22px;
+  box-shadow: 6px 20px 10px black;	
+}
+
