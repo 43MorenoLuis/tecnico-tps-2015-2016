@@ -1,0 +1,40 @@
+body{
+	background:linear-gradient(0deg, violet, blue, yellow, orange);
+}
+#principal{
+	display:block;
+	background:#fc3;
+	width:350px;
+	border-style:dashed;
+	margin:0 0 0 500px;
+	padding:5px;
+}
+span{
+	color:#000;
+	font-family:arial black;
+}
+#txt_grado, #txt_cienciasnotauno, #txt_cienciasnotados, 
+#txt_cienciasnotatres, #txt_matematicanotauno, #txt_matematicanotados,
+#txt_matematicanotatres, #txt_clnotauno, #txt_clnotados, #txt_clnotatres{
+
+	width:40px;
+}
+#btn_calcular{
+	display:block;
+	font-size:150%;
+	background:#ccc;
+	font-family:Brush Script MT;
+}
+h1, span{
+	 text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9,0 3px 0 #bbb,0 4px 0 #b9b9b9,0 5px 0 #aaa,
+	0 6px 1px rgba(0,0,0,.1),0 0 5px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.3),0 3px 5px rgba(0,0,0,.2),
+	0 5px 10px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.2),0 20px 20px rgba(0,0,0,.15);
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+body{
+	background:linear-gradient(70deg, blue 80px, violet 600px, orange 120px);
+}
+table{
+	text-align:center;
+	background:	#FFFFCC	;
+	border:1px solid #000;
+	margin:0 0 0 15px;
+}
+td, tr{
+	border:1px solid #000;
+	padding:3px;
+
+}
+#principal{
+	display:block;
+	background:#33CCFF;
+	float:left;
+	width:600px;
+	margin:0 0 0 310;
+	font-size:150%;
+	border-style:dashed;
+	padding:5px;
+}
+h1, h3, p{
+	text-align:center;
+	 text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9,0 3px 0 #bbb,0 4px 0 #b9b9b9,0 5px 0 #aaa,
+	0 6px 1px rgba(0,0,0,.1),0 0 5px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.3),0 3px 5px rgba(0,0,0,.2),
+	0 5px 10px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.2),0 20px 20px rgba(0,0,0,.15);
+}
+h3{
+	color:#000;
+	font-family:arial black;
+	text-decoration:underline;
+}
+span{
+	color:#000;
+	font-family:Verdana;
+}
+p{
+	display:block;
+	font-size:150%;
+	background:none;
+	text-align:center;
+	font-family:Brush Script MT;
+}

@@ -1,0 +1,42 @@
+body{
+	background:#c93;
+	text-align:center;
+}
+#principal{
+	background:#none;
+	display:block;
+	width:990px;
+	margin:0 0 0 150px;
+	float:left;
+}
+h1, h4, h5{
+	color:#000;
+	font-family:verdana;
+}
+#one, #two, #three, #four, #five{
+	background:linear-gradient(violet,orange,green);
+	display:block;
+	border:1px solid #000;
+	width:185px;
+	float:left;
+	margin:3px 5px 3px 5px;
+}
+#six, #seven, #eigth, #nine, #ten{
+	background:linear-gradient(green,red,magenta);
+	display:block;
+	width:185px;
+	border:1px solid #000;
+	margin:3px 5px 3px 5px;
+	float:left;
+}
+#eleven, #twelve, #thirteen, #fourteen, #fifteen{
+	background:linear-gradient(magenta,yellow,brown);
+	display:block;
+	width:185px;
+	border:1px solid #000;
+	margin:3px 5px 3px 5px;
+	float:left;
+}
+
+
+

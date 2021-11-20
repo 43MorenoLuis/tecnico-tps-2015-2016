@@ -1,0 +1,93 @@
+body{
+	background:radial-gradient( gray, black, gray, black, gray, black);}
+#general{
+	display:block;
+	float:left;
+	border:none;
+	width:985px;
+	padding:10px;
+	margin:0 0 0 200px;	
+}
+#primera{
+	display:block;
+	float:left;
+	background:#fc3;
+	border:3px solid #000;
+	width:950px;
+	padding:10px;
+}
+h1{
+	text-align:center;
+	font-size:36px;
+	color:#000;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9,0 3px 0 #bbb,0 4px 0 #b9b9b9,0 5px 0 #aaa,
+	0 6px 1px rgba(0,0,0,.1),0 0 5px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.3),0 3px 5px rgba(0,0,0,.2),
+	0 5px 10px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.2),0 20px 20px rgba(0,0,0,.15);
+}
+marquee{
+	text-align:center;
+	font-size:22px;
+	color:#03C;
+	font-family:Algerian, Candara;
+ 	text-shadow: 0 1px 0 #ccc, 0 3px 0 #c9c9c9,0 3px 0 #bbb,0 4px 0 #b9b9b9,0 5px 0 #aaa,
+	0 6px 1px rgba(0,0,0,.1),0 0 5px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.3),0  3px 5px rgba(0,0,0,.2),
+	0 5px 10px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.2),0 20px 20px rgba(0,0,0,.15);
+}
+.titulos{
+	display:block;
+	float:left;
+	width:945px;
+	text-align:center;
+	margin:0 0 10px 0;
+}
+.dia, .valor, .descuento, .subsidio, .vacio, .total{
+	display:block;
+	float:left;
+	background:#000;	
+	color:#fff;
+	border:1px solid #000;
+	padding:1px;
+}
+.vacio{
+	margin:0 4px 0 5px;
+	width:98px;
+}
+.dia{
+	margin:0 0 0 4px;
+	width:97px;
+}
+.valor{
+	margin:0 0 0 4px;
+	width:168px;
+}
+.subsidio{
+	margin:0 0 0 5px;
+	width:168px;
+}
+.descuento{
+	margin:0 0 0 5px;
+	width:168px;
+}
+.total{
+	margin:0 0 0 5px;
+	width:168px;
+}
+.btn{
+	display:block;
+	background:#000;	
+	color:#fff;
+	width:100px;
+	float:left;
+	border:none;
+	margin:0 10px 0 5px;
+}
+#btn_total{
+	background:#000;	
+	color:#fff;
+}
+#txt_day1, #txt_day2, #txt_day3, #txt_day4, #txt_day5, #txt_day6, #txt_day7, #txt_day8, #txt_day9, #txt_day10{
+	display:block;
+	width:100px;
+	float:left;
+	margin:0 4px 0 0;	
+}

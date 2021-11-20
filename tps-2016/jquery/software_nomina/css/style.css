@@ -1,0 +1,186 @@
+/*Nomina Empleados*/
+/*	Luis Eduardo 
+	Moreno Guevara
+	15-04-2016
+	Archivo css
+*/
+body{
+	background:radial-gradient( gray, black, gray, black, gray, black);
+}
+#principal{
+	display:block;
+	width:1010px;
+	background:#fc3;
+	border:3px solid #F00;
+	padding:5px;
+	margin:0 0 0 110px;
+}
+.titulo{
+	display:block;
+	width:1000px;
+	float:left;
+	margin:20px 0 10px 4px;
+	padding:5px 0 5px 0;
+	text-align:center;
+}
+.vacio{
+	display:block;
+	float:left;
+	width:88px;
+	background:#000;	
+	color:#fff;
+	border:1px solid #000;
+	margin:0 5px 0 0;	
+}
+.dia{
+	display:block;
+	float:left;
+	width:28px;
+	background:#000;	
+	color:#fff;
+	border:1px solid #000;
+	margin:0 4px 0 0;	
+}
+.valor{
+	display:block;
+	width:58px;
+	float:left;
+	background:#000;	
+	color:#fff;
+	border:1px solid #000;
+	margin:0 4px 0 0;	
+	
+}
+.sueldo{
+	display:block;
+	float:left;
+	width:98px;
+	background:#000;	
+	color:#fff;
+	border:1px solid #000;
+	margin:0 4px 0 0;		
+}
+.salud{
+	display:block;
+	float:left;
+	width:98px;
+	background:#000;	
+	color:#fff;
+	border:1px solid #000;
+	margin:0 4px 0 0;		
+}
+.pension{
+	display:block;
+	float:left;
+	width:98px;
+	background:#000;	
+	color:#fff;
+	border:1px solid #000;
+	margin:0 4px 0 0;		
+}
+.arl{
+	display:block;
+	float:left;
+	width:98px;
+	background:#000;	
+	color:#fff;
+	border:1px solid #000;
+	margin:0 4px 0 0;		
+}
+.subsidio{
+	display:block;
+	float:left;
+	width:98px;
+	background:#000;	
+	color:#fff;
+	border:1px solid #000;
+	margin:0 4px 0 0;		
+}
+.descuento{
+	display:block;
+	float:left;
+	width:98px;
+	background:#000;	
+	color:#fff;
+	border:1px solid #000;
+	margin:0 4px 0 0;		
+}
+.total{
+	display:block;
+	float:left;
+	width:170px;
+	background:#000;	
+	color:#fff;
+	border:1px solid #000;
+	margin:0 4px 0 0;		
+}
+#btn{
+	width:96px;
+	background:#000;	
+	color:#fff;	
+	margin:0 0 0 96px;
+}
+#txt_trabajador1, #txt_trabajador2, #txt_trabajador3, #txt_trabajador4{
+	width:30px;
+	text-align:center;
+}
+#txt_day1, #txt_day2, #txt_day3, #txt_day4{
+	width:60px;
+	text-align:center;
+}
+#txt_sueldo1, #txt_sueldo2, #txt_sueldo3, #txt_sueldo4, #txt_totsueldo{
+	width:100px;
+	text-align:center;
+}
+#txt_salud1, #txt_salud2, #txt_salud3, #txt_salud4, #txt_totsalud{
+	width:100px;
+	text-align:center;
+}
+#txt_pension1, #txt_pension2, #txt_pension3, #txt_pension4, #txt_totpension{
+	width:100px;
+	text-align:center;
+}
+#txt_arl1, #txt_arl2, #txt_arl3, #txt_arl4, #txt_totarl{
+	width:100px;
+	text-align:center;
+}
+#txt_seisporciento1, #txt_seisporciento2, #txt_seisporciento3, #txt_seisporciento4, #txt_totseisporciento{
+	width:100px;
+	text-align:center;
+}
+#txt_subsidio1, #txt_subsidio2, #txt_subsidio3, #txt_subsidio4, #txt_totsubsidio{
+	width:100px;
+	text-align:center;
+}
+#txt_total1, #txt_total2, #txt_total3, #txt_total4{
+	text-align:center;	
+}
+#txt_tottotal{
+	text-align:center;	
+}
+label{
+	float:left;
+	background:#000;	
+	color:#fff;
+	border:1px solid #000;
+	margin:0 5px 0 5px;
+
+}
+#error_lote1, #error_lote2, #error_lote3, #error_lote4{
+	display:none;
+	color:#FF0000;
+	font-size:120%;
+}
+.error_area1, .error_area2, .error_area3, .error_area4{
+	display:none;
+	color:#FF0000;
+	font-size:120%;
+}
+h1, p{
+	text-align:center;
+	font-size:36px;
+	color:#000;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9,0 3px 0 #bbb,0 4px 0 #b9b9b9,0 5px 0 #aaa,
+	0 6px 1px rgba(0,0,0,.1),0 0 5px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.3),0 3px 5px rgba(0,0,0,.2),
+	0 5px 10px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.2),0 20px 20px rgba(0,0,0,.15);
+}

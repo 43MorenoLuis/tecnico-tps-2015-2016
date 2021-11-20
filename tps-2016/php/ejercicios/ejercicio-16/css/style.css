@@ -1,0 +1,99 @@
+/*Nomina*/
+/*	Luis Eduardo 
+	Moreno Guevara
+	31-05-2016
+	Archivo php
+*/
+body{
+	background:linear-gradient(130deg, yellow, brown, green);
+}
+h1{
+	text-align:center;
+}
+#general{
+	display:block;
+	background:linear-gradient(orange, yellow, violet);
+	width:730px;
+	float:left;
+	margin:0 0 0 300px;
+	padding:5px;
+}
+.sueldo{
+	display:block;
+	float:left;
+	width:98px;
+	background:#0f6;	
+	border:1px solid #000;
+	margin:0 4px 0 0;
+	color:red;
+	text-align:center;
+}
+
+.salud{
+	display:block;
+	float:left;
+	width:98px;
+	background:#0f6;	
+	border:1px solid #000;
+	margin:0 4px 0 0;
+	color:red;
+	text-align:center;
+}
+.pension{
+	display:block;
+	float:left;
+	width:98px;
+	background:#0f6;	
+	color:red;
+	border:1px solid #000;
+	margin:0 4px 0 0;
+	text-align:center;
+}
+.arl{
+	display:block;
+	float:left;
+	width:98px;
+	background:#0f6;	
+	color:red;
+	border:1px solid #000;
+	margin:0 4px 0 0;
+	text-align:center;
+}
+.subsidio{
+	display:block;
+	float:left;
+	width:150px;
+	background:#0f6;	
+	color:red;
+	border:1px solid #000;
+	margin:0 4px 0 0;
+	text-align:center;
+}
+.retencion{
+	display:block;
+	float:left;
+	width:150px;
+	background:#0f6;	
+	color:red;
+	border:1px solid #000;
+	margin:0 4px 0 0;
+	text-align:center;
+}
+.total{
+	display:block;
+	float:left;
+	width:150px;
+	color:red;
+	margin:0 4px 0 0;
+	text-align:center;
+}
+span{
+	color:#000;
+}
+
+
+
+
+
+
+

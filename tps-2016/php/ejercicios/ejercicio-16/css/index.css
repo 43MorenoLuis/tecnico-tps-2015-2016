@@ -1,0 +1,31 @@
+body{
+	background:linear-gradient(75deg, green 100px, brown 90px, orange 180px);
+}
+#principal{
+	display:block;
+	background:none;
+	width:420px;
+	float:left;
+	padding:5px;
+	font-family:arial black;
+}
+span{
+	display:block;
+	float:left;
+	font-size:130%;
+}
+#txt_nombre, #txt_diastrabajados, #txt_valortrabajo{
+	display:block;
+	float:left;
+	border:1px solid #000;
+	margin:0 0 0 5px;
+	background:#ccc;
+}
+#btn_recibir{
+	display:block;
+	float:left;
+	border:1px solid #000;
+	font-size:150%;
+	background:#ccc;
+	font-family:Brush Script MT;
+}

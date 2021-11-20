@@ -1,0 +1,11 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+DirectoryIndex ndxnotas.php
+RewriteEngine On
+RewriteBase /notas/admin
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /notas/admin/ndxnotas.php [L]
+</IfModule>
+
+# END WordPress

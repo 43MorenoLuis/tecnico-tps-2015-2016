@@ -1,0 +1,115 @@
+<html>
+	<head>
+		<title>Factura</title>
+         	<link href='css/factura.css' type='text/css' rel='stylesheet' media='screen'/>
+            <link rel='shortcut icon' href='img/factura2.jpg'/>
+			<script src='js/factura.js'></script>
+	</head>
+
+
+     <body>
+    			
+ 	<div id='general'>
+        		<div id='principal'>
+					<h1>Factura</h1>
+					
+                	<div class='titulos'>
+                    		<div class='vacio'>
+                    		<span>Nro</span>
+                            </div>
+                    		<div class='precio'>
+                    		<span>Precio Producto</span>
+                            </div>
+                            <div class='iva'>
+                        	<span>Iva</span>
+                            </div>
+                            <div class='total'>
+                        	<span>Total</span>
+                            </div>
+                    </div>
+		<!--producto 1-->
+    		<input type='button' value='Producto 1' class='btn'/>
+		<input type='text' name='txt_uno' id='txt_uno' placeholder='Precio Del Producto' />
+		<input type='text' name='txt_resultado1' id='txt_resultado1' placeholder='Iva' />       	
+    		<input type='text' name='txt_valorto1' id='txt_valorto1' placeholder='Valor Total' />
+     
+	   
+        		<!--producto 2--> 
+         		<input type='button' value='Producto 2' class='btn' />
+       		<input type='text' name='txt_dos' id='txt_dos'  placeholder='Precio Del Producto'/>
+        		<input type='text' name='txt_resultado2' id='txt_resultado2'  placeholder='Iva' />        
+        		<input type='text' name='txt_valorto2' id='txt_valorto2' placeholder='Valor Total'  />
+        
+         		<!--producto 3--> 
+          		<input type='button' value='Producto 3' class='btn' />
+       		<input type='text' name='txt_tres' id='txt_tres' placeholder='Precio Del Producto'  />
+		<input type='text' name='txt_resultado3' id='txt_resultado3'  placeholder='Iva' />        
+        		<input type='text' name='txt_valorto3' id='txt_valorto3' placeholder='Valor Total'  /> 
+         
+        		<!--producto 4-->
+         		<input type='button' value='Producto 4'  class='btn'/>
+       		<input type='text' name='txt_cuatro' id='txt_cuatro' placeholder='Precio Del Producto' />
+		<input type='text' name='txt_resultado4' id='txt_resultado4'  placeholder='Iva' />
+        		<input type='text' name='txt_valorto4' id='txt_valorto4'  placeholder='Valor Total' /> 
+        
+         		<!--producto 5-->
+          		<input type='button' value='Producto 5' class='btn' /> 
+       		<input type='text' name='txt_cinco' id='txt_cinco' placeholder='Precio Del Producto' />
+		<input type='text' name='txt_resultado5' id='txt_resultado5' placeholder='Iva'  />
+        		<input type='text' name='txt_valorto5' id='txt_valorto5'placeholder='Valor Total'   />
+         
+         		<!--producto 6--> 
+          		<input type='button' value='Producto 6'  class='btn'/> 
+       		<input type='text' name='txt_seis' id='txt_seis' placeholder='Precio Del Producto' />
+		<input type='text' name='txt_resultado6' id='txt_resultado6'  placeholder='Iva' />
+        		<input type='text' name='txt_valorto6' id='txt_valorto6' placeholder='Valor Total'  /> 
+		
+         
+         		<!--producto 7--> 
+        		<input type='button' value='Producto 7'  class='btn'/>
+       		<input type='text' name='txt_siete' id='txt_siete' placeholder='Precio Del Producto' />
+		<input type='text' name='txt_resultado7' id='txt_resultado7'  placeholder='Iva' />
+        		<input type='text' name='txt_valorto7' id='txt_valorto7' placeholder='Valor Total'  /> 
+		
+         
+         		<!--producto 8-->  
+         		<input type='button' value='Producto 8' class='btn' />
+       		<input type='text' name='txt_ocho' id='txt_ocho' placeholder='Precio Del Producto' />
+		<input type='text' name='txt_resultado8' id='txt_resultado8'  placeholder='Iva' />
+        		<input type='text' name='txt_valorto8' id='txt_valorto8' placeholder='Valor Total'  /> 
+		
+         
+         		<!--producto 9--> 
+          		<input type='button' value='Producto 9' class='btn' />
+       		<input type='text' name='txt_nueve' id='txt_nueve' placeholder='Precio Del Producto' />
+		<input type='text' name='txt_resultado9' id='txt_resultado9'  placeholder='Iva' />
+        		<input type='text' name='txt_valorto9' id='txt_valorto9' placeholder='Valor Total'  /> 
+		
+         
+         		<!--producto 10--> 
+        		<input type='button' value='Producto 10' class='btn' />
+       		<input type='text' name='txt_diez' id='txt_diez'  placeholder='Precio Del Producto'/>
+		<input type='text' name='txt_resultado10' id='txt_resultado10'  placeholder='Iva' />
+        		<input type='text' name='txt_valorto10' id='txt_valorto10' placeholder='Valor Total'  /> 
+		
+        	<hr>
+
+        		<!--total de factura-->
+        		<input type='button' value='Total De Factura' id='btn_total' onClick='factura();'/>
+        		<input type='text' name='txt_totfactura' id='txt_totfactura' placeholder='Total a Pagar' /> 
+	    
+        
+       	<marquee behavior='slide'><p>Si su factura es mayor a 500000 tendra un descuento del 3%</p></marquee>
+       
+        		<!--descuento final-->
+        		<input type='button' value='3%' id='btn_total' onClick='descuento();'/>
+		<input type='text' name='txt_descuento' id='txt_descuento' placeholder='Descuento' /> 
+        
+        	 <input type='button' value='Total pagar Con 3%' id='btn_total' onClick='total();'/>
+			<input type='text' name='txt_pagar' id='txt_pagar' placeholder='Total' /> 
+        
+       <marquee behavior='slide' ><p>Este Programa Ha Sido Realizado Por El Aprendiz: Luis Eduardo Moreno Guevara</p></marquee>
+       		 </div>
+	</div>
+      </body>
+</html>

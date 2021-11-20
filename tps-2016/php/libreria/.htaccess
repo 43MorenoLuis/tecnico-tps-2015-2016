@@ -1,0 +1,11 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+DirectoryIndex libro.php
+RewriteEngine On
+RewriteBase /libreria
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /libreria/idxlibreria.php [L]
+</IfModule>
+
+# END WordPress

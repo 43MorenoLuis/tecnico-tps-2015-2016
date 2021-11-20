@@ -1,0 +1,79 @@
+/* CSS Document */
+body{
+
+}
+
+article{
+	width: 830px;
+	text-aling: center;
+}
+
+#arti1 img{
+	  float:right;
+}
+#arti1 p{
+	  /*font-family:"Comic Sans MS", cursive;*/
+	  font-size: 24px;
+	  text-align: justify;
+	  /*width:640px;*/
+}
+#arti1{
+	  margin:auto;
+	  margin-bottom: 100px;      
+	  text-align:center;
+	 
+	 
+	  
+	  /*border-radius:15px;
+	  padding: 20px;
+	  box-shadow: 0px 3px 6px 2px #999999; */
+}
+
+
+#arti2 img{
+	  float:right;
+  
+}
+#arti2 p{
+	  /*font-family:"Comic Sans MS", cursive;*/
+	  font-size: 24px;
+	  text-align: justify;
+	  /*width:670px;*/
+}
+#arti2{
+	  margin:auto;
+	  margin-bottom: 100px;
+      
+	  text-align:center;
+	 
+	 
+	  
+	  /*border-radius:15px;
+	  padding: 20px;
+	  box-shadow: 0px 3px 6px 2px #999999; */
+}
+#arti3 img{
+}
+#arti3 p{
+	  /*font-family:"Comic Sans MS", cursive;*/
+	  font-size: 24px;
+	  text-align: justify;
+	  
+}
+#arti3{
+      
+	  margin-bottom:40px;
+	  float: right;
+	  display: inline-table;
+	  text-align:center;
+      float:left;
+	  height:600px;
+	  width:830px;
+	  border-color:#00FFFF;
+	  /*border-radius:15px;
+	  padding: 20px;
+	  box-shadow: 0px 3px 6px 2px #999999;*/
+
+	
+
+}

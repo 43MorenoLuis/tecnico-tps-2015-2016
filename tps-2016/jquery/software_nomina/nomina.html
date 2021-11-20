@@ -1,0 +1,121 @@
+<html>
+	<head>
+		<title>Nomina</title>
+		<link href='css/style.css' rel='stylesheet' type='text/css' media='screen'/>
+        <link rel='shortcut icon' href='img/imagen.jpg'/>
+		<script src='js/jquery.js'></script>
+		<script src='js/calculo.js'></script>
+	</head>
+	
+	<body>
+				
+    		<div id='principal'>
+				<h1>Validaciones - Jquery - Validaciones</h1> 
+            		<div class='titulo'>
+                    	<div class='vacio'>
+                    		<span>Nro</span>
+                        </div>
+                    	<div class='dia'>
+                    		<span >Dia</span>
+                        </div>
+                        <div class='valor'>
+                        	<span>Valor</span>
+                        </div>
+                        <div class='sueldo'>
+                        	<span>Sueldo</span>
+                        </div>
+                        <div class='salud'>
+                        	<span>Salud 14%</span>
+                        </div>
+                        <div class='pension'>
+                        	<span>Pension 12%</span>
+                        </div>
+                        <div class='arl'>
+                        	<span>ARL 3%</span>
+                        </div>
+                        <div class='descuento'>
+                        	<span>-6%</span>
+                        </div>
+                        <div class='subsidio'>
+                        	<span>65000</span>
+                        </div>
+                        <div class='total'>
+                        	<span>Total</span>
+                        </div>
+                    </div>
+                                 
+				<label>Trabajador 1:</label>
+				<input type='text' name='txt_trabajador1' id='txt_trabajador1' placeholder='Dia'/>
+                <div id='error_lote1'>Digitar Los Dias Trabajados Del Trabajador 1</div>
+        		<input type='text' name='txt_day1' id='txt_day1' placeholder='Valor'/>
+				<div class='error_area1'>Digitar Valor Del Dia Del Trabajador 1</div>				
+				<input type='text' name='txt_sueldo1' id='txt_sueldo1' placeholder='Sueldo'/>				
+				<input type='text' name='txt_salud1' id='txt_salud1' placeholder='Salud'/>				
+				<input type='text' name='txt_pension1' id='txt_pension1' placeholder='Pension'/>
+				<input type='text' name='txt_arl1' id='txt_arl1' placeholder='ARL'/>				
+				<input type='text' name='txt_seisporciento1' id='txt_seisporciento1'  placeholder='-6%'/>
+				<input type='text' name='txt_subsidio1' id='txt_subsidio1' placeholder='65000'/>
+				<input type='text' name='txt_total1' id='txt_total1' placeholder='Total'/>
+
+             <hr/>
+
+				<label>Trabajador 2:</label>
+				<input type='text' name='txt_trabajador2' id='txt_trabajador2'placeholder='Dia'/> 
+                <div id='error_lote2'>Digitar Los Dias Trabajados Del Trabajador 2</div>
+        		<input type='text' name='txt_day2' id='txt_day2' placeholder='Valor'/>
+         		<div class='error_area2'>Digitar Valor Del Dia Del Trabajador 2</div>
+				<input type='text' name='txt_sueldo2' id='txt_sueldo2' placeholder='Sueldo'/>
+				<input type='text' name='txt_salud2' id='txt_salud2' placeholder='Salud'/>
+				<input type='text' name='txt_pension2' id='txt_pension2' placeholder='Pension'/>
+				<input type='text' name='txt_arl2' id='txt_arl2' placeholder='ARL'/>
+				<input type='text' name='txt_seisporciento2' id='txt_seisporciento2' placeholder='-6%'/>
+				<input type='text' name='txt_subsidio2' id='txt_subsidio2' placeholder='65000'/>
+				<input type='text' name='txt_total2' id='txt_total2'  placeholder='Total'/>
+
+             <hr/>
+			
+        				<label>Trabajador 3:</label>
+				<input type='text' name='txt_trabajador3' id='txt_trabajador3'placeholder='Dia'/>   
+                <div id='error_lote3'>Digitar Los Dias Trabajados Del Trabajador 3</div> 
+        		<input type='text' name='txt_day3' id='txt_day3' placeholder='Valor'/>
+				<div class='error_area3'>Digitar Valor Del Dia Del Trabajador 3</div>
+				<input type='text' name='txt_sueldo3' id='txt_sueldo3' placeholder='Sueldo'/>
+				<input type='text' name='txt_salud3' id='txt_salud3' placeholder='Salud'/>
+				<input type='text' name='txt_pension3' id='txt_pension3' placeholder='Pension'/>
+				<input type='text' name='txt_arl3' id='txt_arl3' placeholder='ARL'/>
+				<input type='text' name='txt_seisporciento3' id='txt_seisporciento3' placeholder='-6%'/>
+				<input type='text' name='txt_subsidio3' id='txt_subsidio3' placeholder='65000'/>
+				<input type='text' name='txt_total3' id='txt_total3' placeholder='Total'/>
+
+             <hr/>
+			
+				<label>Trabajador 4:</label>
+				<input type='text' name='txt_trabajador4' id='txt_trabajador4'placeholder='Dia'/>
+                <div id='error_lote4'>Digitar Los Dias Trabajados Del Trabajador 4</div>
+        		<input type='text' name='txt_day4' id='txt_day4' placeholder='Valor'/>
+				<div class='error_area4'>Digitar Valor Del Dia Del Trabajador 4</div>
+				<input type='text' name='txt_sueldo4' id='txt_sueldo4' placeholder='Sueldo'/>
+				<input type='text' name='txt_salud4' id='txt_salud4' placeholder='Salud'/>
+				<input type='text' name='txt_pension4' id='txt_pension4' placeholder='Pension'/>
+				<input type='text' name='txt_arl4' id='txt_arl4' placeholder='ARL'/>
+				<input type='text' name='txt_seisporciento4' id='txt_seisporciento4' placeholder='-6%'/>
+				<input type='text' name='txt_subsidio4' id='txt_subsidio4' placeholder='65000'/>
+				<input type='text' name='txt_total4' id='txt_total4' placeholder='Total'/>
+			
+            <hr/>
+            
+				<input type='button' id='btn' value='Total a Pagar' onClick='calcular();'/>
+				<input type='text' name='txt_totsueldo' id='txt_totsueldo'  placeholder='Total Sueldo'/>
+				<input type='text' name='txt_totsalud' id='txt_totsalud' placeholder='Total Salud'/>
+				<input type='text' name='txt_totpension' id='txt_totpension' placeholder='Total pension'/>
+				<input type='text' name='txt_totarl' id='txt_totarl' placeholder='Total ARL'/>
+				<input type='text' name='txt_totseisporciento' id='txt_totseisporciento' placeholder='Total -6%'/>
+				<input type='text' name='txt_totsubsidio' id='txt_totsubsidio' placeholder='Total 65000'/>
+				<input type='text' name='txt_tottotal' id='txt_tottotal' placeholder='Total'/>
+
+           <hr/>
+                <marquee direction='left' behavior='slide'><p> Realizado Por: Luis Eduardo Moreno Guevara </p></marquee>
+                            		
+		</div>		
+	</body>
+</html>

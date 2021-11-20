@@ -1,0 +1,42 @@
+body{
+	background:#09f;
+	color:fff;
+}
+h1{
+	text-align:center;
+}
+#principal{
+	display:block;
+	background:#000;
+	border:5px solid #fff;
+	width:380px;
+	float:left;
+	padding:6px;
+} 
+#documento , form{
+	background:none;
+	width:370px;
+	padding:2px;
+}
+input{
+	text-align:center;
+}
+span{
+	background:#000;
+	width:170px;
+	color:#fff;
+	border:1px solid #fff;
+	float:left;
+	text-align:center;
+	margin:0 4px 0 0;
+}
+
+#btn_guardar:hover{
+	background:#ccc;
+	float:left;
+	color:#000;
+	margin:5px 0 0 0;
+	text-align:center;
+	font-family:Lucida Calligraphy;
+	font-size:100%;
+}

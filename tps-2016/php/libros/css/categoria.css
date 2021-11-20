@@ -1,0 +1,82 @@
+body{
+	background:#000;
+	font-family:Verdana;
+}
+#principal{					/*==== ESTILOS CAPA PRINCIPAL ====*/
+	display:block;
+	background:#000;
+	float:left;
+	width:560px;
+	padding:5px;
+	box-shadow:0 0 20px 0 white;
+	margin: 0 0 0 10px;
+}
+.izquierda{					/*==== ESTILOS CAPA IZQUIERDA ====*/
+	background:none;
+	float:left;
+	width:210px;
+	box-shadow:0 0 20px 0 white;
+	margin:0 10px 0 0;
+}
+#crear{						/*==== ESTILOS BOTON CREAR ====*/
+	background:#000;
+	float:left;
+	border:1px solid #000;
+	text-decoration:none;
+	color:#fff;
+	margin:0 0 10px 60px;
+	text-align:center;
+	font-family:hobo;
+	box-shadow:0 0 20px 0 white;
+}
+#crear:hover{				/*==== ESTILOS BOTON CREAR HOVER ====*/
+	color:#3cf;
+}
+#txt_buscar{				/*==== ESTILOS INPUT DE BUSCAR ====*/
+	width:90px;
+	text-align:center;
+	margin:0 0 0 10px;
+	border:1px solid #000;
+}
+#frm_categoria{					/*==== ESTILOS ETIQUETA FORM ====*/
+	background:none;
+	width:200px;
+	margin:10px 5px 10px 5px;
+}
+.buscar{					/*==== ESTILOS BOTON BUSCAR ====*/
+	color:#fff;
+	background:#000;
+	box-shadow:0 0 20px 0 white;
+	width:90px;
+	float:left;
+	border:1px solid #000;
+}
+.estiloico{					/*==== ESTILOS IMGES EDITAR Y ELIMINAR ====*/
+	width:20px;
+}
+h2, h3{						/*==== ESTILOS TITULOS ====*/
+	color:#fff;
+	text-align:center;
+}
+	/*==== ESTILOS TABLA ====*/
+th{
+	background:#000;
+	border:1px solid #fff;
+	text-align:center;
+	color:#fff;
+}
+td{
+	border:1px solid #fff;
+	text-align:center;
+}
+table{
+	border:none;
+	float:left;
+	color:#fff;
+	box-shadow:0 0 20px 0 white;
+	background:none;
+	margin:0 0 10px 0;
+}
+#editar, #eliminar{
+	border:none;
+}

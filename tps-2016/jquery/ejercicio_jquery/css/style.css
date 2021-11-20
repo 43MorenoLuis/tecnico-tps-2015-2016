@@ -1,0 +1,9 @@
+body{
+	background:#ADFF2F;
+
+}
+#error_campo1, #error_campo2{
+	display:none;
+	color:#FF0000;
+	font-size:120%;
+}

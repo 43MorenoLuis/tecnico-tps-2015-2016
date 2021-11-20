@@ -1,0 +1,107 @@
+body{
+	background:linear-gradient(violet, blue, yellow, green);
+}
+h1{
+	text-align:center;
+	font-size:150%;
+	text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9,
+	0 3px 0 #bbb,0 4px 0 #b9b9b9,0 5px 0 #aaa,
+	0 6px 1px rgba(0,0,0,.1),
+	0 0 5px rgba(0,0,0,.1),
+	0 1px 3px rgba(0,0,0,.3),
+	0 3px 5px rgba(0,0,0,.2),
+	0 5px 10px rgba(0,0,0,.25),
+	0 10px 10px rgba(0,0,0,.2),
+	0 20px 20px rgba(0,0,0,.15);
+}
+/*========== ESTILOS PARA LA CAPA PRINCIPAL ===========*/
+#principal{
+	display:block;
+	background:#fc3;
+	border:4px solid #900;
+	border-style:dashed;
+	width:410px;
+	float:left;
+	padding:6px;
+}
+/*========== ESTILOS PARA LA CPAPA DE LOS TITULOS ===========*/
+#titulo{
+	float:left;
+	width:400px;
+	margin:0 0 10px 0;
+}
+/*========== ESTILOS PARA LOS TITULOS ===========*/
+#numero, #nombre, #apellido, #year, #mes, #dia{				
+	float:left;
+	text-align:center;
+	background:#000;
+	color:#fff;
+}
+/*=========== ESTILOS PARA LOS INPUT =============*/
+#txt_nombre1, #txt_nombre2, #txt_nombre3, #txt_nombre4, #txt_nombre5, 
+#txt_nombre6, #txt_nombre7, #txt_nombre8, #txt_nombre9, #txt_nombre10, 
+#txt_nombre11, #txt_nombre12, #txt_nombre13, #txt_nombre14, #txt_nombre15, 
+#txt_apellido1, #txt_apellido2, #txt_apellido3, #txt_apellido4, #txt_apellido5, 
+#txt_apellido6, #txt_apellido7, #txt_apellido8, #txt_apellido9, #txt_apellido10, 
+#txt_apellido11, #txt_apellido12, #txt_apellido13, #txt_apellido14, #txt_apellido15{
+	border:1px solid #000;
+	width:100px;
+	text-align:center;
+}
+#txt_year1, #txt_year2, #txt_year3, #txt_year4, #txt_year5, 
+#txt_year6, #txt_year7, #txt_year8, #txt_year9, #txt_year10, 
+#txt_year11, #txt_year12, #txt_year13, #txt_year14, #txt_year15, 
+#txt_mes1, #txt_mes2, #txt_mes3, #txt_mes4, #txt_mes5, 
+#txt_mes6, #txt_mes7, #txt_mes8, #txt_mes9, #txt_mes10, 
+#txt_mes11, #txt_mes12, #txt_mes13, #txt_mes14, #txt_mes15, 
+#txt_dia1, #txt_dia2, #txt_dia3, #txt_dia4, #txt_dia5, 
+#txt_dia6, #txt_dia7, #txt_dia8, #txt_dia9, #txt_dia10, 
+#txt_dia11, #txt_dia12, #txt_dia13, #txt_dia14, #txt_dia15{
+	border:1px solid #000;
+	width:40px;
+	text-align:center;
+}
+/*=========== ESTILOS PARA LOS TAMAÑOS DE LOS TITULOS =============*/
+.numero{
+	width:56px;	
+	margin:0 4px 0 0;
+}
+.nombre{
+	width:100px;
+	margin:0 4px 0 0;	
+}
+.apellido{
+	width:100px;
+	margin:0 4px 0 0;	
+}
+.year{
+	width:40px;
+	margin:0 4px 0 0;	
+}
+.mes{
+	width:40px;
+	background:#6fc;
+	margin:0 4px 0 0;	
+}
+.dia{
+	width:40px;
+	margin:0 4px 0 0;	
+}
+/*========== ESTILOS PARA LOS NUMEROS ===========*/
+span{
+	background:#000;
+	width:56px;
+	color:#fff;
+	float:left;
+	text-align:center;
+	margin:0 4px 0 0;
+}
+#btn_calcular{
+	background:#ccc;
+	float:left;
+	color:#000;
+	margin:5px 0 0 0;
+	text-align:center;
+	font-family:Brush Script MT;
+	font-size:150%;
+}

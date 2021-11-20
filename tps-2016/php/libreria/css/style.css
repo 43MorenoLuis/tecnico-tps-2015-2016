@@ -1,0 +1,44 @@
+body{
+	background: rgba(0,0,0,0.5);
+}
+input[type=button].save, input[type=submit].save{ background-image: url("../interfaz/bt_save.png");}
+input[type=button].edit, input[type=submit].edit{ background-image: url("../interfaz/bt_edit.png"); }
+input[type=button].mas, input[type=submit].mas{ background-image: url("../interfaz/bt_mas.png"); }
+input[type=button].del, input[type=submit].del{ background-image: url("../interfaz/bt_del.png");}
+/*--------------------------------------------------------------*/
+
+th, td{
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+    padding:3px;
+    text-align: center;
+}
+table{
+    float: left;
+}
+input[type=submit], input[type=button], input[type=button]{
+	cursor: pointer;
+	font-weight: bold;
+
+	background: none;
+	border: none;
+    width:5%;
+    margin: 5px 5px 5px 0px;
+
+	color: #FFF;
+	text-shadow: 0px 1px 0 rgba(256,256,256,0.5);
+	text-shadow: 1px 1px 0 #000;
+	background: #33f url("../interfaz/_bt_save.png") 10px center no-repeat;
+}
+input.left{
+	float: left;
+	margin: 0 5px 5px 0;
+	padding-left: 42px;
+	width: auto;
+    border-radius: 10px;
+    height:35px;
+}
+a{
+    text-decoration: none;
+	color:#000;
+}

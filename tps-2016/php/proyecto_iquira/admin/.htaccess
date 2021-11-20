@@ -1,0 +1,11 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+DirectoryIndex ndxiquira.php
+RewriteEngine On
+RewriteBase /proyecto_iquira/admin
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /proyecto_iquira/admin/ndxiquira.php [L]
+</IfModule>
+
+# END WordPress

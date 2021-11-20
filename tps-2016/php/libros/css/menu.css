@@ -1,0 +1,53 @@
+#menu{
+	display:block;
+	float:left;
+	width:190px;
+	margin:5px 10px 10px 10px;
+	background:none;
+	font-family:hobo;
+}
+
+#a:hover{
+	color:#3cf;
+	text-decoration:none;
+}
+#a{
+	color:#fff;
+	text-decoration:none;
+}
+.uno{
+	background:#000;
+	width:70px;
+	text-align:center;
+	border:1px solid #000;
+	border-radius:50px;
+	box-shadow:0 0 20px 0 white;
+	margin:5px 0 5px 5px;
+}
+.dos{
+	background:#000;
+	width:70px;
+	margin:5px 0 5px 5px;
+	border-radius:50px;
+	text-align:center;
+	border:1px solid #000;
+	box-shadow:0 0 20px 0 white;
+}
+.tres{
+	background:#000;
+	width:90px;
+	margin:5px 0 5px 5px;
+	border-radius:50px;
+	text-align:center;
+	border:1px solid #000;
+	box-shadow:0 0 20px 0 white;
+}
+.cuatro{
+	background:#000;
+	width:150px;
+	margin:5px 0 5px 5px;
+	border-radius:50px;
+	text-align:center;
+	border:1px solid #000;
+	box-shadow:0 0 20px 0 white;
+}
