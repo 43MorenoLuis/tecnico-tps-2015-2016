@@ -1,23 +1,17 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# production
-/build
-
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+/tps-2015/web-deports/imagenes
+/tps-2016/php/biodiversidad/ima
+/tps-2016/php/biodiversidad/img
+/tps-2016/php/dbnota/img
+/tps-2016/php/libreria/interfaz
+/tps-2016/php/libros/img
+/tps-2016/php/notas/admin/iconos
+/tps-2016/php/notas/admin/interfaz
+/tps-2016/php/project-store/images
+/tps-2016/php/project-store/img
+/tps-2016/php/proyecto_iquira/admin/iconos
+/tps-2016/php/proyecto_iquira/admin/fotos
+/tps-2016/php/proyecto_iquira/admin/info
+/tps-2016/php/proyecto_iquira/admin/imgns
+/tps-2016/php/proyecto_iquira/admin/interfaz
