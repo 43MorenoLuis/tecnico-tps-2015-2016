@@ -4,7 +4,7 @@ html{
 	text-align:center;
 }
 body {
-	background:url(../imagenes/images%20(6).jpg) no-repeat fixed center;
+	background:url("../imagenes/images%20(6).jpg") no-repeat fixed center;
 	-webkit-background-size:cover;
 	-o-background-size:cover;
 	background-size:cover;
